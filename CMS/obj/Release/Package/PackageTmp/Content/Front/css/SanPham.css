@@ -1,0 +1,92 @@
+﻿.chiTietSP {
+}
+
+    .chiTietSP > .tenSP {
+        border-bottom: solid 1px #f1efef;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #635f5f;
+        margin: 0.5em 1em 1em 1em;
+    }
+
+    .chiTietSP > .left {
+    }
+
+        .chiTietSP > .left > img {
+            width: 100%;
+        }
+
+    .chiTietSP > .right {
+        margin-bottom: 2em;
+    }
+
+        .chiTietSP > .right > .thuocTinh {
+            padding: 0.8em 0;
+            border-bottom: dotted 1px #939393;
+        }
+
+            .chiTietSP > .right > .thuocTinh > .tinhChat {
+            }
+
+            .chiTietSP > .right > .thuocTinh > .thongSo {
+            }
+
+        .chiTietSP > .right > .datHang {
+            padding: 0.8em 0;
+            border-bottom: dotted 1px #939393;
+        }
+
+            .chiTietSP > .right > .datHang > .tinhChat {
+            }
+
+            .chiTietSP > .right > .datHang > .soLuong {
+            }
+
+            .chiTietSP > .right > .datHang > .them {
+                color: #fff;
+                background-color: #f44336;
+                padding: 0.4em 3em;
+            }
+
+                .chiTietSP > .right > .datHang > .them:hover {
+                    text-decoration:none;
+                    background-color: #f00;
+                }
+
+    .chiTietSP > .moTa {
+    }
+
+        .chiTietSP > .moTa > .tieuDe {
+            border-bottom: solid 1px #f1efef;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #635f5f;
+            margin: 0.5em 0;
+        }
+
+    .chiTietSP .moTa > .noiDung {
+    }
+
+    .chiTietSP .moTa > .noiDung img{
+        max-width:100%;
+    }
+
+/*Mobile*/
+@media (max-width: 767px) {
+}
+
+/*table*/
+@media (min-width: 767px) and (max-width:992px) {
+}
+
+/*table xoay ngang*/
+@media (max-width: 1024px) and (min-width:992px) {
+}
+
+/*Desktop*/
+@media (min-width: 992px) {
+}
+
+/*Màn hình lớn*/
+@media (min-width:1400px) {
+}

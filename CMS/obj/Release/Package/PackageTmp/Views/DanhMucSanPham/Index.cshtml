@@ -1,0 +1,43 @@
+﻿@*@model CMS.Models.Product*@
+@{
+    ViewBag.Title = "Danh sách sản phẩm";
+}
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 left">
+    @Html.Partial("_TinTucAll")
+</div>
+
+<p class="col-lg-9 col-md-9 col-sm-9 col-xs-12 tieuDeSP">SẢN PHẨM</p>
+
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 right gioiThieuSP">
+    <p class="tieuDe">TỎI ĐEN LÀ GÌ ? VÀ NGUỒN GỐC CỦA NÓ ?</p>
+    <p class="noiDung">
+        Được làm từ củ tỏi tươi của huyện đảo Lý Sơn, tỏi tươi Sơn La, tỏi tía Thái Bình, Nam Sách, Thanh Hà của tỉnh Hải Dương việt Nam.
+    </p>
+    <p class="noiDung">
+        Tỏi tươi có mùi vị hăng cay, được lên men 100 % tự nhiên, không sử dụng bất kỳ loại hoá chất hoặc chất phụ gia nào .
+    </p>
+    <p class="noiDung">
+        Quá trình lên men dùng nhiệt đọ và độ ẩm thích hợp trong thời gian từ 45 đến 60 ngày .Khi men phát triển từ củ tỏi tươi mầu trắng sẽ tự nhiên tạo ra chất Melanoildin được chuyển hoá trong củ tỏi sẽ tự tạo ra mầu đen , và khi ăn sẽ không còn mùi cay và hăng nữa. Thay vào đó là mầu đen , khi ăn ngọt giống như mùi vị trái cay , trong tỏi trắng chất carbohydrote chỉ có 28,7 % , nhờ cách lên men tự nhiên và nhiên độ thích hợp giá trị của chất này trong tỏi đen lên tới 47,9 %.
+    </p>
+    <p class="noiDung">
+        Vì thế các nhà khoa học nghiên cứu đã gọi , tỏi đen là:
+    </p>
+    <p style="color:#f44336; font-weight:bold; font-size:1.1em; text-align:center;">" TỎI ĐEN LINH ĐƠN "</p>
+</div>
+
+<!--Sản phẩm-->
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 goiYSP" style="margin-bottom:4em;" ng-controller="categoryProductController">
+    <input type="hidden" value="1" id="idCategoryProduct" />
+    <span us-spinner="{radius:15, width:4, length: 8}"></span>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 sanPham" style="margin-bottom:1em;" ng-repeat="(index, value) in products">
+        <img src="{{value.image}}" class="img-responsive" />
+        <a class="tieuDe" href="/san-pham/{{value.alias}}-{{value.idProduct}}">{{value.title}}</a>
+        <p class="gia"><span>Giá:</span> {{value.price | number:0}} đ</p>
+        <a class="chiTiet" href="/san-pham/{{value.alias}}-{{value.idProduct}}">Chi tiết</a>
+        @*<a class="datHang" href="#">Đặt hàng</a>*@
+    </div>
+</div>
+
+<!--Gợi ý thêm sản phẩm-->
+@Html.Partial("_SanPham");

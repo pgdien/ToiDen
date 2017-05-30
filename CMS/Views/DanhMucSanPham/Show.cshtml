@@ -1,0 +1,25 @@
+﻿@model CMS.Models.CategoryProduct
+@{
+    ViewBag.Title = "Sản phẩm";
+}
+
+
+<div ng-controller="allCategoryProductController">
+    <input type="hidden" value="@Model.idCategory" id="idCategory" />
+    <div class="col-lg-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 ThucDon" >
+        <p class="TieuDe">Sản phẩm</p>
+
+        <div class="col-lg-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 MonAn" dir-paginate="(index, value) in products | itemsPerPage: 12">
+            <a href="/san-pham/{{value.alias}}-{{value.idProduct}}">
+                <img alt="{{value.title}}" src="{{value.image}}" class="img-responsive" />
+                <p class="TenMon">{{value.title}}</p>
+                <p class="Gia">Đơn giá: {{value.price | number:0}} <sup>đ</sup></p>
+            </a>
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ccontainer" style="text-align:center"><dir-pagination-controls></dir-pagination-controls></div>
+
+    </div>
+
+
+</div>

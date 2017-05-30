@@ -1,0 +1,27 @@
+﻿@model CMS.Models.Category
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 left">
+    @Html.Partial("_MenuLeft")
+    @Html.Partial("_TinTucAll")
+</div>
+
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 right" ng-controller="categoryPostController">
+    <input type="hidden" value="@Model.idCategory" id="idCategory" />
+    <p class="tieuDe">@Model.title</p>
+    <span us-spinner="{radius:15, width:4, length: 8}"></span>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 tongHop">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 allBaiViet" ng-repeat="(index, value) in posts">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 khung">
+                <img class="img-responsive" ng-src="{{value.image}}" />
+                <a href="/bai-viet/{{value.alias}}-{{value.idPost}}">{{value.title}}</a>
+                <div class="tomTat" ng-bind-html="value.content | limitTo: 100"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Gợi ý thêm sản phẩm-->
+@Html.Partial("_SanPham");
