@@ -1056,6 +1056,7 @@
     <Content Include="ckfinder\plugins\fileeditor\codemirror\addon\mode\overlay.js" />
     <Content Include="ckfinder\plugins\fileeditor\codemirror\lib\codemirror.css" />
     <Content Include="ckfinder\plugins\fileeditor\codemirror\lib\codemirror.js" />
+    <Content Include="ckfinder\plugins\fileeditor\codemirror\LICENSE" />
     <Content Include="ckfinder\plugins\fileeditor\codemirror\mode\clike\clike.js" />
     <Content Include="ckfinder\plugins\fileeditor\codemirror\mode\css\css.js" />
     <Content Include="ckfinder\plugins\fileeditor\codemirror\mode\htmlmixed\htmlmixed.js" />
@@ -1091,7 +1092,11 @@
     <Content Include="ckfinder\plugins\imageresize\plugin.js" />
     <Content Include="ckfinder\plugins\watermark\logo.gif" />
     <Content Include="ckfinder\skins\bootstrap\app.css" />
+    <Content Include="ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="ckfinder\skins\bootstrap\host.css" />
     <Content Include="ckfinder\skins\bootstrap\images\icons\16\ai.png" />
     <Content Include="ckfinder\skins\bootstrap\images\icons\16\avi.png" />
@@ -1316,6 +1321,7 @@
     <Content Include="ckfinder\skins\v1\skin.js" />
     <Content Include="ckfinder\skins\v1\uipanel.css" />
     <Content Include="ckfinder\translations.txt" />
+    <Content Include="ckfinder\userfiles\.htaccess" />
     <Content Include="Content\admin\css\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\admin\css\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\admin\css\fonts\LICENSE.txt" />
@@ -2577,12 +2583,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="ckfinder\plugins\fileeditor\codemirror\LICENSE" />
-    <Content Include="ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="ckfinder\userfiles\.htaccess" />
     <Content Include="Areas\Admin\Views\Categories\Create.cshtml" />
     <Content Include="Areas\Admin\Views\Categories\Index.cshtml" />
     <Content Include="Content\admin\css\fonts\fontawesome-webfont.eot" />

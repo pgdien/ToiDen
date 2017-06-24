@@ -58,6 +58,10 @@ D:\Project\KNT\ToiDen\CMS\bin\WebGrease.dll
 D:\Project\KNT\ToiDen\CMS\bin\WebMatrix.Data.dll
 D:\Project\KNT\ToiDen\CMS\bin\WebMatrix.WebData.dll
 D:\Project\KNT\ToiDen\CMS\bin\Antlr3.Runtime.pdb
+D:\Project\KNT\ToiDen\CMS\bin\CKFinder.pdb
+D:\Project\KNT\ToiDen\CMS\bin\CKFinder_FileEditor.pdb
+D:\Project\KNT\ToiDen\CMS\bin\CKFinder_ImageResize.pdb
+D:\Project\KNT\ToiDen\CMS\bin\CKFinder_Watermark.pdb
 D:\Project\KNT\ToiDen\CMS\bin\EntityFramework.xml
 D:\Project\KNT\ToiDen\CMS\bin\EntityFramework.SqlServer.xml
 D:\Project\KNT\ToiDen\CMS\bin\Microsoft.AI.DependencyCollector.xml
@@ -79,6 +83,6 @@ D:\Project\KNT\ToiDen\CMS\bin\System.Web.WebPages.Deployment.xml
 D:\Project\KNT\ToiDen\CMS\bin\System.Web.WebPages.Razor.xml
 D:\Project\KNT\ToiDen\CMS\bin\WebMatrix.Data.xml
 D:\Project\KNT\ToiDen\CMS\bin\WebMatrix.WebData.xml
+D:\Project\KNT\ToiDen\CMS\obj\Release\ToiDen.csprojResolveAssemblyReference.cache
 D:\Project\KNT\ToiDen\CMS\obj\Release\CMS.dll
 D:\Project\KNT\ToiDen\CMS\obj\Release\CMS.pdb
-D:\Project\KNT\ToiDen\CMS\obj\Release\ToiDen.csprojResolveAssemblyReference.cache
